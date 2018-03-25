@@ -16,7 +16,7 @@ Records of project development progress.
   - 讨论产品的亮点与特色
   - 定义产品的服务范围
   - 分析涉及的相关技术及风险
-- 会议记录：[第一次会议纪要](/doc/meet_recording/项目启动会议.md)
+- 会议记录：[第一次会议纪要](https://github.com/WindyMen/Dashboard/blob/gh-pages/doc/meet_recording/%E9%A1%B9%E7%9B%AE%E5%90%AF%E5%8A%A8%E4%BC%9A%E8%AE%AE.md)
  
 
 ### Iteration 1
