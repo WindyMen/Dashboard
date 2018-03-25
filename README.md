@@ -10,6 +10,9 @@ Records of project development progress.
 
 ### Inception
 
+**项目启动会议 (03/24/2018)**
+- 会议目标：定义产品范围、愿景和核心业务
+
 
 ### Iteration 1
 
