@@ -4,7 +4,7 @@ Records of project development progress.
 ## Documentation
 
 - [需求文档]()
-- [SDP课程文档]()
+- [SDP课程文档](https://github.com/WindyMen/Dashboard/tree/gh-pages/doc/course-SDP)
 
 ## Iterations
 
