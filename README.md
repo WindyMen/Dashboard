@@ -16,7 +16,7 @@ Records of project development progress.
   - 讨论产品的亮点与特色
   - 定义产品的服务范围
   - 分析涉及的相关技术及风险
-- 会议记录：[第一次会议纪要](/doc/meet-recording/项目启动会议.md)
+- 会议记录：[第一次会议纪要](/doc/meet_recording/项目启动会议.md)
  
 
 ### Iteration 1
