@@ -10,7 +10,7 @@ Records of project development progress.
         - [Use Cases]()    
     - [设计]()       
         - [UI设计]()        
-    - [会议记录]()
+    - [会议记录](https://github.com/WindyMen/Dashboard/tree/master/doc/meet_recording)
     - [Tech/Work Report]()
 
 ## Iterations
