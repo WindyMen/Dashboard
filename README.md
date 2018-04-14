@@ -11,7 +11,7 @@ Records of project development progress.
     - [设计]()       
         - [UI设计]()        
     - [会议记录](https://github.com/WindyMen/Dashboard/tree/master/doc/meet_recording)
-    - [Tech/Work Report]()
+    - [Tech/Work Report](https://github.com/WindyMen/Dashboard/tree/master/doc/Tech%20Report)
 
 ## Iterations
 
