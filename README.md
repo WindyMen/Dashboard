@@ -6,7 +6,7 @@ Records of project development progress.
 - [需求文档](https://github.com/WindyMen/Dashboard/blob/gh-pages/doc/backlog.md)
 - [SDP课程文档](https://github.com/WindyMen/Dashboard/tree/gh-pages/doc/course-SDP)    
     - [需求规格说明]()
-        - [Usecase Diagram]()
+        - [Usecase Diagram](https://github.com/WindyMen/Dashboard/blob/master/doc/course-SDP/usecase_diagram.png)
         - [Use Cases]()    
     - [设计]()       
         - [UI设计]()        
