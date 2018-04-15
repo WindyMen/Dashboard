@@ -4,7 +4,14 @@ Records of project development progress.
 ## Documentation
 
 - [需求文档](https://github.com/WindyMen/Dashboard/blob/gh-pages/doc/backlog.md)
-- [SDP课程文档](https://github.com/WindyMen/Dashboard/tree/gh-pages/doc/course-SDP)
+- [SDP课程文档](https://github.com/WindyMen/Dashboard/tree/gh-pages/doc/course-SDP)    
+    - [需求规格说明]()
+        - [Usecase Diagram](https://github.com/WindyMen/Dashboard/blob/master/doc/course-SDP/usecase_diagram.png)
+        - [Use Cases]()    
+    - [设计]()       
+        - [UI设计]()        
+    - [会议记录](https://github.com/WindyMen/Dashboard/tree/master/doc/meet_recording)
+    - [Tech/Work Report](https://github.com/WindyMen/Dashboard/tree/master/doc/Tech%20Report)
 
 ## Iterations
 
