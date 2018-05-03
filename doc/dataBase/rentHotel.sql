@@ -1,6 +1,6 @@
 /*==============================================================*/
 /* DBMS name:      MySQL 5.0                                    */
-/* Created on:     2018/5/3 16:05:26                            */
+/* Created on:     2018/5/3 16:48:38                            */
 /*==============================================================*/
 
 
@@ -21,7 +21,7 @@ create table addRoom
 (
    uid                  varchar(32) not null,
    rid                  varchar(32) not null,
-   orderedTime          time,
+   addTime              time,
    primary key (uid, rid)
 );
 
