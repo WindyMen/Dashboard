@@ -9,7 +9,8 @@ Records of project development progress.
         - [Usecase Diagram](https://github.com/WindyMen/Dashboard/blob/master/doc/course-SDP/usecase_diagram.png)
         - [Use Cases]()    
     - [设计]()       
-        - [UI设计]()        
+        - [UI设计]() 
+        - [数据库模型设计]()       
     - [会议记录](https://github.com/WindyMen/Dashboard/tree/master/doc/meet_recording)
     - [Tech/Work Report](https://github.com/WindyMen/Dashboard/tree/master/doc/Tech%20Report)
 
