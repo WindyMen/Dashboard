@@ -1,46 +1,34 @@
-# Dashboard
-Records of project development progress.
+---
+layout: default
+---
 
-## Documentation
+# [](#TOC)目录
 
-- [需求文档](https://github.com/WindyMen/Dashboard/blob/gh-pages/doc/backlog.md)
-- [SDP课程文档](https://github.com/WindyMen/Dashboard/tree/gh-pages/doc/course-SDP)    
-    - [需求规格说明]()
-        - [Usecase Diagram]()
-        - [Use Cases]()    
-    - [设计]()       
-        - [UI设计]()        
-    - [会议记录]()
-    - [Tech/Work Report]()
+&nbsp;&nbsp; 
 
-## Iterations
-
-### Inception
-
-**项目启动会议 (2018/03/24)**
-- 会议目标：定义产品范围、愿景和核心业务
-- 会议内容
-  - 讨论产品的亮点与特色
-  - 定义产品的服务范围
-  - 分析涉及的相关技术及风险
-- 会议记录：[第一次会议纪要](https://github.com/WindyMen/Dashboard/blob/gh-pages/doc/meet_recording/%E9%A1%B9%E7%9B%AE%E5%90%AF%E5%8A%A8%E4%BC%9A%E8%AE%AE.md)
- 
-
-### Iteration 1
-
-**目标：** 确定产品业务范围，相关技术学习以及完成产品基本原型的开发。
-
-
-**Week 1 (2018/03/24)**
-- 需求分析：给出此次迭代的需求
-- 概要设计 & 详细设计：无
-- 编码 & 测试：
-  - 前端：
-  - 后端：
-
-**Week 2 (2018/03/26)**
-- 需求分析：
-- 概要设计 & 详细设计：
-- 编码 & 测试：
-  - 前端：
-  - 后端：
+* 1、[About](01-about)（项目规划）
+* 2、[Team profile](02-team-profile)（团队组建）
+* 3、Investigation（项目前期调研）
+* 4、Vision（项目愿景）
+* 5、Product Backlog （产品特性）
+* 6、Requirement specification（需求规格说明）
+    - 6.1 Usecase Diagram（用例图）
+    - 6.2 Use Cases（用例+活动图）
+    - 6.3 Domian Model（领域模型）
+    - 6.4 State Model（状态模型）
+    - 6.5 System Sequence Diagram（功能模型）
+* 7、Design（设计）
+    - 7.1 UI design
+        - XX 用例 UI设计
+    - 7.2 Database design
+        - 7.2.1 用户及权限系统数据库设计
+        - 7.2.2 XX子系统数据课设计 
+        - 7.2.x 第三方数据评审结果
+    - 7.3 API 设计
+* 8、生产规范与指南
+    - 8.1 XX 代码规范
+    - 8.2 REST API 设计规范
+* X1 meet_recording
+    - inception meeting (yy/mm/dd)
+* X2 Tech/Work Report
+    - 学号-title
