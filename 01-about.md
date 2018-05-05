@@ -24,30 +24,30 @@ title: 关于项目
 
 ## 3、敏捷开发迭代管理
 
-* Inceptions
+* Inceptions    
     - goal: 就产品“产品范围、愿景和核心业务”达成一致
-    - 前期工作：
-        - 产品调查：15331072、15331071
-        - 团队组织
-    - 项目启动会议：所有人
-    - 项目愿景等文档： 15331072、15331071
-    - 租房业务故事板设计: 15331071
+    - 前期工作：    
+        - 产品调查：15331072、15331071    
+        - 团队组织    
+    - 项目启动会议：所有人    
+    - 项目愿景等文档： 15331072、15331071    
+    - 租房业务故事板设计: 15331071
 * Iteration 1 (3 weeks from 2018.03.24 to 2018.04.08)
-    - goals:
-        - makes tech prototype for  
-        - builds a proto system to demostrate core scene
+    - goals:    
+        - makes tech prototype for    
+        - builds a proto system to demostrate core scene    
         - collects 50% requirments scene stories
-    - weeks 1
-        - 需求分析
-            - task1：相关产品调查分析
-            - task2：讨论确定业务范围
-        - 学习或其他
-            - task1：学习github管理项目相关知识
-            - task2：学习相关技术知识
-    - weeks 2
-        - 需求分析
-            - task1：对产品调查结果进行分析，编写项目说明文档
-            - task2：确定项目愿景
+    - weeks 1    
+        - 需求分析    
+            - task1：相关产品调查分析     
+            - task2：讨论确定业务范围    
+        - 学习或其他    
+            - task1：学习github管理项目相关知识    
+            - task2：学习相关技术知识    
+    - weeks 2    
+        - 需求分析    
+            - task1：对产品调查结果进行分析，编写项目说明文档    
+            - task2：确定项目愿景
         - 设计和编码
             - task1：参考其他同类产品设计
         - 学习或其他
