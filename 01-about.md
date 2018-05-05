@@ -19,7 +19,7 @@ title: 关于项目
 
 ## 2、主要制品
 
-* [需求文档]()
+* [需求文档](https://github.com/WindyMen/Dashboard/blob/gh-pages/doc/backlog.md)
 * [架构设计]()
 
 
