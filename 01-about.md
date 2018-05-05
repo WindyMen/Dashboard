@@ -28,12 +28,12 @@ title: 关于项目
 * Inceptions
     - goal: 就产品“产品范围、愿景和核心业务”达成一致
     - 前期工作：
-        - 产品调查：xxx
-        - 团队组织
+        - 产品调查：范永业、范耀中
+        - 团队组织
     - 项目启动会议：所有人
-    - 项目愿景等文档： xxx
-    - XX业务故事板设计: xxx
-* Iteration 1 (3 weeks from yy.mm.dd to yy.mm.dd)
+    - 项目愿景等文档： 范永业、范耀中
+    - 租房业务故事板设计: 范耀中
+* Iteration 1 (3 weeks from 2018.mm.dd to yy.mm.dd)
     - goals:
         - makes tech prototype for something
         - builds a proto system to demostrate core scene
