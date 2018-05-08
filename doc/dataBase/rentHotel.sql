@@ -1,10 +1,8 @@
 /*==============================================================*/
 /* DBMS name:      MySQL 5.0                                    */
-/* Created on:     2018/5/3 16:48:38                            */
+/* Created on:     2018/5/8 14:43:30                            */
 /*==============================================================*/
 
-
-drop table if exists addRoom;
 
 drop table if exists makeComment;
 
@@ -13,17 +11,6 @@ drop table if exists makeOrder;
 drop table if exists room;
 
 drop table if exists user;
-
-/*==============================================================*/
-/* Table: addRoom                                               */
-/*==============================================================*/
-create table addRoom
-(
-   uid                  varchar(32) not null,
-   rid                  varchar(32) not null,
-   addTime              time,
-   primary key (uid, rid)
-);
 
 /*==============================================================*/
 /* Table: makeComment                                           */
@@ -60,12 +47,12 @@ create table room
 (
    rid                  varchar(32) not null,
    uid                  varchar(32),
-   roomName             char(10),
+   roomName             text,
    type                 varchar(32),
    numOfPerson          int,
    description          varchar(100),
    numOfBed             int,
-   numOfToliet          int,
+   numOfToilet          int,
    country              varchar(32),
    province             varchar(32),
    city                 varchar(32),
@@ -75,6 +62,9 @@ create table room
    title                varchar(32),
    photoDir             varchar(32),
    rating               int,
+   createdTime          time,
+   startRentDate        date,
+   endRentDate          date,
    primary key (rid)
 );
 
@@ -92,12 +82,6 @@ create table user
    primary key (uid)
 );
 
-alter table addRoom add constraint FK_addRoom foreign key (uid)
-      references user (uid) on delete restrict on update restrict;
-
-alter table addRoom add constraint FK_addRoom2 foreign key (rid)
-      references room (rid) on delete restrict on update restrict;
-
 alter table makeComment add constraint FK_makeComment foreign key (uid)
       references user (uid) on delete restrict on update restrict;
 
@@ -110,6 +94,6 @@ alter table makeOrder add constraint FK_makeOrder foreign key (uid)
 alter table makeOrder add constraint FK_makeOrder2 foreign key (rid)
       references room (rid) on delete restrict on update restrict;
 
-alter table room add constraint FK_Relationship_4 foreign key (uid)
+alter table room add constraint FK_own foreign key (uid)
       references user (uid) on delete restrict on update restrict;
 
