@@ -1,6 +1,9 @@
 # Dashboard
 Records of project development progress.
 
+## git-pages
+https://windymen.github.io/Dashboard/
+
 ## Documentation
 
 - [需求文档](https://github.com/WindyMen/Dashboard/blob/gh-pages/doc/backlog.md)
