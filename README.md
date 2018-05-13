@@ -1,6 +1,9 @@
 # Dashboard
 Records of project development progress.
 
+## git-pages
+https://windymen.github.io/Dashboard/
+
 ## Documentation
 
 - [需求文档](https://github.com/WindyMen/Dashboard/blob/gh-pages/doc/backlog.md)
@@ -10,7 +13,7 @@ Records of project development progress.
         - [Use Cases]()    
     - [设计]()       
         - [UI设计]() 
-        - [数据库模型设计]()       
+        - [数据库模型设计](https://github.com/WindyMen/Dashboard/tree/master/doc/dataBase)       
     - [会议记录](https://github.com/WindyMen/Dashboard/tree/master/doc/meet_recording)
     - [Tech/Work Report](https://github.com/WindyMen/Dashboard/tree/master/doc/Tech%20Report)
 
