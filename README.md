@@ -13,7 +13,7 @@ https://windymen.github.io/Dashboard/
         - [Use Cases]()    
     - [设计]()       
         - [UI设计]() 
-        - [数据库模型设计](Dashboard/doc/dataBase)       
+        - [数据库模型设计](https://github.com/WindyMen/Dashboard/tree/master/doc/dataBase)       
     - [会议记录](https://github.com/WindyMen/Dashboard/tree/master/doc/meet_recording)
     - [Tech/Work Report](https://github.com/WindyMen/Dashboard/tree/master/doc/Tech%20Report)
 
