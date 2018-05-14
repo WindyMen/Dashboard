@@ -15,7 +15,7 @@ https://windymen.github.io/Dashboard/
         - [UI  design]() 
         - [database mdel](https://github.com/WindyMen/Dashboard/tree/master/doc/dataBase)
         - [domain model](https://github.com/WindyMen/Dashboard/blob/master/doc/course-SDP/rentRoomDomain.PNG)
-        - [state model](https://github.com/WindyMen/Dashboard/blob/master/doc/course-SDP/rentOrderState.PNG)
+        - [state model](https://github.com/WindyMen/Dashboard/blob/master/doc/course-SDP/rentOrderState.PNG)
         
     - [会议记录](https://github.com/WindyMen/Dashboard/tree/master/doc/meet_recording)
     - [Tech/Work Report](https://github.com/WindyMen/Dashboard/tree/master/doc/Tech%20Report)
