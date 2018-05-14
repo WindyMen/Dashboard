@@ -12,11 +12,12 @@ https://windymen.github.io/Dashboard/
         - [Usecase Diagram](https://github.com/WindyMen/Dashboard/blob/master/doc/course-SDP/usecase_diagram.png)
         - [Use Cases]()    
     - [设计]()       
-        - [UI设计]() 
-        - [数据库模型设计](https://github.com/WindyMen/Dashboard/tree/master/doc/dataBase)
-        - [领域模型](https://github.com/WindyMen/Dashboard/blob/master/doc/course-SDP/rentRoomDomain.PNG)
-        - [状态模型](https://github.com/WindyMen/Dashboard/blob/master/doc/course-SDP/rentOrderState.PNG)
-    - [会议记录](https://github.com/WindyMen/Dashboard/tree/master/doc/meet_recording)
+        - [UI  design]() 
+        - [database mdel](https://github.com/WindyMen/Dashboard/tree/master/doc/dataBase)
+        - [domain model](https://github.com/WindyMen/Dashboard/blob/master/doc/course-SDP/rentRoomDomain.PNG)
+        - [state model](https://github.com/WindyMen/Dashboard/blob/master/doc/course-SDP/rentOrderState.PNG)
+        
+    - [会议记录](https://github.com/WindyMen/Dashboard/tree/master/doc/meet_recording)
     - [Tech/Work Report](https://github.com/WindyMen/Dashboard/tree/master/doc/Tech%20Report)
 
 ## Iterations
