@@ -13,8 +13,10 @@ https://windymen.github.io/Dashboard/
         - [Use Cases]()    
     - [设计]()       
         - [UI设计]() 
-        - [数据库模型设计](https://github.com/WindyMen/Dashboard/tree/master/doc/dataBase)       
-    - [会议记录](https://github.com/WindyMen/Dashboard/tree/master/doc/meet_recording)
+        - [数据库模型设计](https://github.com/WindyMen/Dashboard/tree/master/doc/dataBase)  
+        - [领域模型]（https://github.com/WindyMen/Dashboard/blob/master/doc/course-SDP/rentRoomDomain.PNG）
+        - [状态模型](https://github.com/WindyMen/Dashboard/blob/master/doc/course-SDP/rentOrderState.PNG)
+    - [会议记录](https://github.com/WindyMen/Dashboard/tree/master/doc/meet_recording)
     - [Tech/Work Report](https://github.com/WindyMen/Dashboard/tree/master/doc/Tech%20Report)
 
 ## Iterations
