@@ -13,15 +13,15 @@ layout: default
 * 5、Product Backlog （产品特性）
 * 6、Requirement specification（需求规格说明）
     - 6.1 [Usecase Diagram](doc/usecase_diagram)（用例图）
-    - 6.2 Use Cases（用例+活动图）
-    - 6.3 Domian Model（领域模型）
-    - 6.4 State Model（状态模型）
-    - 6.5 System Sequence Diagram（功能模型）
+    - 6.2 Use Cases（）（用例+活动图）
+    - 6.3 Domian Model（https://github.com/WindyMen/Dashboard/blob/gh-pages/doc/course-SDP/rentRoomDomain.PNG）（领域模型）
+    - 6.4 State Model（https://github.com/WindyMen/Dashboard/blob/gh-pages/doc/course-SDP/rentOrderState.PNG）（状态模型）
+    - 6.5 System Sequence Diagram（Dashboard/doc/course-SDP/createRoomSequence.PNG）（功能模型）
 * 7、Design（设计）
     - 7.1 UI design
         - XX 用例 UI设计
     - 7.2 Database design
-        - 7.2.1 用户及权限系统数据库设计
+        - 7.2.1 用户及权限系统数据库设计（https://github.com/WindyMen/Dashboard/blob/gh-pages/doc/course-SDP/datebaseModel.PNG）
         - 7.2.2 XX子系统数据课设计 
         - 7.2.x 第三方数据评审结果
     - 7.3 API 设计
