@@ -16,7 +16,7 @@ layout: default
     - 6.2 [Use Cases]() (用例+活动图）
     - 6.3 [Domian Model](Dashboard/doc/course-SDP/rentRoomDomain) （领域模型）
     - 6.4 [State Model](Dashboard/doc/course-SDP/roomState) （状态模型）
-    - 6.5 [System Sequence Diagram](https://github.com/WindyMen/Dashboard/blob/master/doc/course-SDP/createRoomSequence.PNG)（功能模型）
+    - 6.5 [System Sequence Diagram](https://github.com/WindyMen/Dashboard/blob/master/doc/course-SDP/createRoomSequence)（功能模型）
 * 7、Design（设计）
     - 7.1 UI design
         - XX 用例 UI设计
