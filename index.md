@@ -14,15 +14,15 @@ layout: default
 * 6、Requirement specification（需求规格说明）
     - 6.1 [Usecase Diagram](doc/usecase_diagram)（用例图）
     - 6.2 [Use Cases]() (用例+活动图）
-    - 6.3 [Domian Model](Dashboard/doc/course-SDP/rentRoomDomain) （领域模型）
-    - 6.4 [State Model](Dashboard/doc/course-SDP/roomState) （状态模型）
+    - 6.3 [Domian Model](https://github.com/WindyMen/Dashboard/blob/master/doc/course-SDP/rentRoomDomain) （领域模型）
+    - 6.4 [State Model](https://github.com/WindyMen/Dashboard/blob/master/doc/course-SDP/rentOrderState) （状态模型）
     - 6.5 [System Sequence Diagram](https://github.com/WindyMen/Dashboard/blob/master/doc/course-SDP/createRoomSequence)（功能模型）
 * 7、Design（设计）
     - 7.1 UI design
         - XX 用例 UI设计
     - 7.2 Database design
-        - 7.2.1 [用户及权限系统数据库设计](Dashboard/doc/course-SDP/datebaseModel)
-        - 7.2.2 [订单子系统数据库设计文件](Dashboard/doc/database/rentRoom)
+        - 7.2.1 [用户及权限系统数据库设计](https://github.com/WindyMen/Dashboard/blob/gh-pages/doc/course-SDP/datebaseModel)
+        - 7.2.2 [订单子系统数据库设计文件](https://github.com/WindyMen/Dashboard/blob/gh-pages/doc/database/rentRoom)
         - 7.2.x 第三方数据评审结果
     - 7.3 API 设计
 * 8、生产规范与指南
