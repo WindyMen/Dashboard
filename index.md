@@ -14,9 +14,9 @@ layout: default
 * 6、Requirement specification（需求规格说明）
     - 6.1 [Usecase Diagram](doc/usecase_diagram)（用例图）
     - 6.2 [Use Cases]() (用例+活动图）
-    - 6.3 [Domian Model](https://github.com/WindyMen/Dashboard/blob/master/doc/course-SDP/rentRoomDomain) （领域模型）
-    - 6.4 [State Model](https://github.com/WindyMen/Dashboard/blob/master/doc/course-SDP/rentOrderState) （状态模型）
-    - 6.5 [System Sequence Diagram](https://github.com/WindyMen/Dashboard/blob/master/doc/course-SDP/createRoomSequence)（功能模型）
+    - 6.3 [Domian Model](doc/course-SDP/rentRoomDomain) （领域模型）
+    - 6.4 [State Model](doc/course-SDP/rentOrderState) （状态模型）
+    - 6.5 [System Sequence Diagram](doc/course-SDP/createRoomSequence)（功能模型）
     - 6.6 [SAD]() (软件架构文档)
     - 6.7 [SD]() (软件设计文档)
     - 6.8 [补充性规格说明]()
