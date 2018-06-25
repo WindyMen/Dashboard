@@ -32,6 +32,6 @@ layout: default
     - 8.1 XX 代码规范
     - 8.2 REST API 设计规范
 * X1 meet_recording
-    - inception meeting (yy/mm/dd)
+    - [inception meeting](doc/meet_recording/项目启动会议) (yy/mm/dd)
 * X2 Tech/Work Report
     - 学号-title
