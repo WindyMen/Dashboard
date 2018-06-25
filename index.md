@@ -17,6 +17,9 @@ layout: default
     - 6.3 [Domian Model](https://github.com/WindyMen/Dashboard/blob/master/doc/course-SDP/rentRoomDomain) （领域模型）
     - 6.4 [State Model](https://github.com/WindyMen/Dashboard/blob/master/doc/course-SDP/rentOrderState) （状态模型）
     - 6.5 [System Sequence Diagram](https://github.com/WindyMen/Dashboard/blob/master/doc/course-SDP/createRoomSequence)（功能模型）
+    - 6.6 [SAD]() (软件架构文档)
+    - 6.7 [SD]() (软件设计文档)
+    - 6.8 [补充性规格说明]()
 * 7、Design（设计）
     - 7.1 UI design
         - XX 用例 UI设计
