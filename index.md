@@ -34,4 +34,4 @@ layout: default
 * X1 meet_recording
     - [inception meeting](doc/meet_recording/项目启动会议) (2018/03/24)
 * X2 Tech/Work Report
-    - 学号-title
+    - [15331071-项目工作经验总结](doc/tech_report/15331071)
