@@ -1,6 +1,6 @@
-Host: 172.18.159.245:8000/api/
+Host: https://windymen.mynatapp.cc/
 
-api的根目录，可用浏览器直接输入172.18.159.245:8000/api/即可查看根目录，如下：  
+api的根目录，可用浏览器直接输入https://windymen.mynatapp.cc/ 即可查看根目录，如下：  
 
 Response 200 (application/json)  
 HTTP/1.1 200 OK
@@ -11,14 +11,14 @@ Content-Type: application/json
 Vary: Accept
 
 {
-    "users": "http://172.18.159.245:8000/api/user/",
-    "rooms": "http://172.18.159.245:8000/api/room/",
-    "countrys": "http://172.18.159.245:8000/api/country/",
+    "users": "https://windymen.mynatapp.cc/user/",
+    "rooms": "https://windymen.mynatapp.cc/room/",
+    "countrys": "https://windymen.mynatapp.cc/country/",
     "provinces": "http://172.18.159.245:8000/api/province/",
-    "citys": "http://172.18.159.245:8000/api/city/",
-    "towns": "http://172.18.159.245:8000/api/town/",
-    "orders": "http://172.18.159.245:8000/api/order/",
-    "comments": "http://172.18.159.245:8000/api/comment/"
+    "citys": "https://windymen.mynatapp.cc/city/",
+    "towns": "https://windymen.mynatapp.cc/town/",
+    "orders": "https://windymen.mynatapp.cc/order/",
+    "comments": "https://windymen.mynatapp.cc/comment/"
 }
 ```
 
