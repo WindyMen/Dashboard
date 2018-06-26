@@ -1,4 +1,4 @@
-# Comment [api/comment/]
+# Comment [comment/]
 
 ## 获取所有评论信息 [GET]
 - Response 200 (application/json)  
@@ -6,22 +6,22 @@ HTTP/1.1 200 OK
 
 ```
 {
-    "url": "http://172.18.159.245:8000/api/comment/1/",
+    "url": "https://windymen.mynatapp.cc/comment/1/",
     "id": 1,
-    "user": "http://172.18.159.245:8000/api/user/fengyh/",
-    "room": "http://172.18.159.245:8000/api/room/1/",
+    "user": "https://windymen.mynatapp.cc/user/open_id/",
+    "room": "https://windymen.mynatapp.cc/room/1/",
     "text": "测试评论",
     "rating": 4,
-    "photo": "http://172.18.159.245:8000/image/comments/137880_6_96_6f027bc98d16440.jpg"
+    "photo": "https://windymen.mynatapp.cc/image/comments/xxx.jpg"
 },
 {
-    "url": "http://172.18.159.245:8000/api/comment/2/",
+    "url": "https://windymen.mynatapp.cc/comment/2/",
     "id": 2,
-    "user": "http://172.18.159.245:8000/api/user/gaomian/",
-    "room": "http://172.18.159.245:8000/api/room/2/",
-    "text": "测试评论2",
+    "user": "https://windymen.mynatapp.cc/user/open_id/",
+    "room": "https://windymen.mynatapp.cc/room/2/",
+    "text": "测试评论",
     "rating": 5,
-    "photo": null
+    "photo": "https://windymen.mynatapp.cc/image/comments/xxx.jpg"
 }
 
 ```
@@ -31,7 +31,7 @@ HTTP/1.1 200 OK
 photo可以不填，默认为null  
 ```
 {
-    "user": "fengyh",
+    "user": "open_id",
     "room": "3",
     "text": "房间很好",
     "rating": 5,
@@ -46,7 +46,7 @@ HTTP/1.1 200 CREATED
 
 ```
 {
-    "user": "fengyh",
+    "user": "open_id",
     "room": "3",
     "text": "房间很好",
     "rating": 5,
@@ -76,19 +76,19 @@ HTTP/1.1 500 INNER SERVER ERROR
 
 无法保存进数据库，主要是uer或者room不存在，或者时间出错  
 
-# Comment-info [api/comment/$id/]
+# Comment-info [comment/$id/]
 ## 获取特定id的评论信息 [GET]
 - Response 200 (application/json)  
 HTTP/1.1 200 OK
 ```
 {
-    "url": "http://172.18.159.245:8000/api/comment/1/",
+    "url": "https://windymen.mynatapp.cc/comment/1/",
     "id": 1,
-    "user": "http://172.18.159.245:8000/api/user/fengyh/",
-    "room": "http://172.18.159.245:8000/api/room/1/",
+    "user": "https://windymen.mynatapp.cc/user/fengyh/",
+    "room": "https://windymen.mynatapp.cc/room/1/",
     "text": "测试评论",
     "rating": 4,
-    "photo": "http://172.18.159.245:8000/image/comments/137880_6_96_6f027bc98d16440.jpg"
+    "photo": "https://windymen.mynatapp.cc/image/comments/xxx.jpg"
 }
 ```
 
@@ -116,13 +116,13 @@ HTTP/1.1 200 OK
 更新后的信息：
 ```
 {
-    "url": "http://172.18.159.245:8000/api/comment/1/",
+    "url": "https://windymen.mynatapp.cc/comment/1/",
     "id": 1,
-    "user": "http://172.18.159.245:8000/api/user/fengyh/",
-    "room": "http://172.18.159.245:8000/api/room/1/",
+    "user": "https://windymen.mynatapp.cc/user/fengyh/",
+    "room": "https://windymen.mynatapp.cc/room/1/",
     "text": "测试patch",
     "rating": 5,
-    "photo": "http://172.18.159.245:8000/image/comments/137880_6_96_6f027bc98d16440.jpg"
+    "photo": "https://windymen.mynatapp.cc/image/comments/xxx.jpg"
 }
 ```
 
