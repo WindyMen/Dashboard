@@ -1,4 +1,4 @@
-# Order [api/order/]
+# Order [order/]
 
 ## 获取所有订单信息 [GET]
 - Response 200 (application/json)  
@@ -6,32 +6,23 @@ HTTP/1.1 200 OK
 
 ```
 {
-    "url": "http://172.18.159.245:8000/api/order/1/",
+    "url": "https://windymen.mynatapp.cc/order/1/",
     "id": 1,
-    "user": "http://172.18.159.245:8000/api/user/fengyh/",
-    "room": "http://172.18.159.245:8000/api/room/2/",
+    "user": "https://windymen.mynatapp.cc/user/open_id/",
+    "room": "https://windymen.mynatapp.cc/room/2/",
     "orderTime": "2018-05-11T10:56:23Z",
     "arrivalData": "2018-05-12T12:00:00Z",
     "departureData": "2018-05-13T12:00:00Z"
 },
 {
-    "url": "http://172.18.159.245:8000/api/order/2/",
+    "url": "https://windymen.mynatapp.cc/order/2/",
     "id": 2,
-    "user": "http://172.18.159.245:8000/api/user/gaomian/",
-    "room": "http://172.18.159.245:8000/api/room/1/",
-    "orderTime": "2018-05-11T10:57:07Z",
+    "user": "https://windymen.mynatapp.cc/user/open_id/",
+    "room": "https://windymen.mynatapp.cc/room/1/",
+    "orderTime": "2018-05-11T10:56:23Z",
     "arrivalData": "2018-05-12T12:00:00Z",
     "departureData": "2018-05-13T12:00:00Z"
 },
-{
-    "url": "http://172.18.159.245:8000/api/order/3/",
-    "id": 3,
-    "user": "http://172.18.159.245:8000/api/user/fengzw/",
-    "room": "http://172.18.159.245:8000/api/room/5/",
-    "orderTime": "2018-05-11T10:57:07Z",
-    "arrivalData": "2018-05-12T12:00:00Z",
-    "departureData": "2018-05-14T12:00:00Z"
-}
 ```
 
 ## 创建订单 [POST]
@@ -39,8 +30,8 @@ HTTP/1.1 200 OK
 
 ```
 {
-    "user": "fengyh",
-    "room": "7",
+    "user": "open_id",
+    "room": "2",
     "orderTime": "2018-05-11T10:56:23Z",
     "arrivalData": "2018-05-12T12:00:00Z",
     "departureData": "2018-05-13T12:00:00Z"
@@ -53,8 +44,8 @@ HTTP/1.1 200 CREATED
 
 ```
 {
-    "user": "fengyh",
-    "room": "7",
+    "user": "open_id",
+    "room": "2",
     "orderTime": "2018-05-11T10:56:23Z",
     "arrivalData": "2018-05-12T12:00:00Z",
     "departureData": "2018-05-13T12:00:00Z"
@@ -68,16 +59,16 @@ HTTP/1.1 400 BAD REQUEST
 HTTP/1.1 500 INNER SERVER ERROR  
 无法保存进数据库，主要是uer或者room不存在，或者时间出错  
 
-# Order-info [api/order/$id/]
+# Order-info [order/$id/]
 ## 获取特定id的订单信息 [GET]
 - Response 200 (application/json)  
 HTTP/1.1 200 OK
 ```
 {
-    "url": "http://172.18.159.245:8000/api/order/1/",
+    "url": "https://windymen.mynatapp.cc/order/1/",
     "id": 1,
-    "user": "http://172.18.159.245:8000/api/user/fengyh/",
-    "room": "http://172.18.159.245:8000/api/room/2/",
+    "user": "https://windymen.mynatapp.cc/user/open_id/",
+    "room": "https://windymen.mynatapp.cc/room/2/",
     "orderTime": "2018-05-11T10:56:23Z",
     "arrivalData": "2018-05-12T12:00:00Z",
     "departureData": "2018-05-13T12:00:00Z"
@@ -108,13 +99,13 @@ HTTP/1.1 200 OK
 更新后的信息：
 ```
 {
-    "url": "http://172.18.159.245:8000/api/order/1/",
+    "url": "https://windymen.mynatapp.cc/order/1/",
     "id": 1,
-    "user": "http://172.18.159.245:8000/api/user/fengyh/",
-    "room": "http://172.18.159.245:8000/api/room/2/",
+    "user": "https://windymen.mynatapp.cc/user/open_id/",
+    "room": "https://windymen.mynatapp.cc/room/2/",
     "orderTime": "2018-05-11T10:56:23Z",
     "arrivalData": "2018-05-12T12:00:00Z",
-    "departureData": "2018-05-14T12:00:00Z"
+    "departureData": "2018-05-13T12:00:00Z"
 }
 ```
 
