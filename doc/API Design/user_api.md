@@ -66,7 +66,7 @@ HTTP/1.1 200 OK
   
 ``` 
 
-# User-info [/api/user/$username/]
+# User-info [/api/user/$open_id/]
 ## 获取用户信息[GET]  
 可用于获取对应用户所新建的所有房间(owner_rooms)
 - Response 200  (application/json)  
