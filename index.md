@@ -19,7 +19,7 @@ layout: default
     - 6.5 [System Sequence Diagram](doc/course-SDP/createRoomSequence)（功能模型）
     - 6.6 [SAD]() (软件架构文档)
     - 6.7 [SD]() (软件设计文档)
-    - 6.8 [补充性规格说明]()
+    - 6.8 [补充性规格说明](doc/SSD)
 * 7、Design（设计）
     - 7.1 UI design
         -XX 用例 UI设计
