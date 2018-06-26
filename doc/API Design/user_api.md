@@ -1,165 +1,70 @@
-# User [/api/user/]
-
-## 注册[POST]
-
-- Request (application/json)  
-```
-{
-    "username": "fengyh",
-    "password": "123456",
-    "nickname": "xiandan"
-}
-```
-- Response 201(application/json)  
-HTTP/1.1 201 Created   
-创建的信息：  
-```
-{
-    "url": "http://172.18.159.245:8000/api/user/testpost/",
-    "username": "testpost",
-    "password": "123456",
-    "nickname": "test",
-    "owner_rooms": [],
-    "user_order": [],
-    "user_comments": []
-}
-```
-
-- Response 400(application/json)  
-HTTP/1.1 400 Bad Request  
-
-```
-{
-    "username": [
-        "user with this username already exists."
-    ]
-}
-```
-
-
-- Response 500 (application/json)  
-Inner Server Error  
-数据库保存不成功  
+# User [/user/]
+https://windymen.mynatapp.cc/user/
+由于使用微信小程序，所以只需要保存从微信获得的open_id即可，然后再保存用户在微信的信息
 
 ## 获取所有用户信息[GET]
 -Response 200 (application/json)  
 HTTP/1.1 200 OK  
 
-
 ```
-{
-    "url": "http://172.18.159.245:8000/api/user/fengyh/",
-    "username": "fengyh",
-    "password": "888888",
-    "nickname": "xiandan",
-    "owner_rooms": [
-        "http://172.18.159.245:8000/api/room/1/",
-        "http://172.18.159.245:8000/api/room/6/",
-        "http://172.18.159.245:8000/api/room/9/"
-    ],
-    "user_order": [
-        "http://172.18.159.245:8000/api/order/1/"
-    ],
-    "user_comments": [
-        "http://172.18.159.245:8000/api/comment/1/"
-    ]
-},
-{
-    "url": "http://172.18.159.245:8000/api/user/gaomian/",
-    "username": "gaomian",
-    "password": "123456",
-    "nickname": "nicho~",
-    "owner_rooms": [
-        "http://172.18.159.245:8000/api/room/2/"
-    ],
-    "user_order": [
-        "http://172.18.159.245:8000/api/order/2/"
-    ],
-    "user_comments": []
-},
-{
-    "url": "http://172.18.159.245:8000/api/user/fengzw/",
-    "username": "fengzw",
-    "password": "123456",
-    "nickname": "weige",
-    "owner_rooms": [
-        "http://172.18.159.245:8000/api/room/3/",
-        "http://172.18.159.245:8000/api/room/7/"
-    ],
-    "user_order": [
-        "http://172.18.159.245:8000/api/order/3/"
-    ],
-    "user_comments": []
-},
-{
-    "url": "http://172.18.159.245:8000/api/user/gaoxr/",
-    "username": "gaoxr",
-    "password": "123456",
-    "nickname": "ruige",
-    "owner_rooms": [
-        "http://172.18.159.245:8000/api/room/4/"
-    ],
-    "user_order": [],
-    "user_comments": []
-},
-{
-    "url": "http://172.18.159.245:8000/api/user/fujt/",
-    "username": "fujt",
-    "password": "123456",
-    "nickname": "主席",
-    "owner_rooms": [
-        "http://172.18.159.245:8000/api/room/5/"
-    ],
-    "user_order": [],
-    "user_comments": []
-},
-{
-    "url": "http://172.18.159.245:8000/api/user/testman/",
-    "username": "testman",
-    "password": "123456",
-    "nickname": "test",
-    "owner_rooms": [],
-    "user_order": [],
-    "user_comments": []
-},
-{
-    "url": "http://172.18.159.245:8000/api/user/test2/",
-    "username": "test2",
-    "password": "123456",
-    "nickname": "test2",
-    "owner_rooms": [],
-    "user_order": [],
-    "user_comments": []
-},
-{
-    "url": "http://172.18.159.245:8000/api/user/'test3'/",
-    "username": "'test3'",
-    "password": "123456",
-    "nickname": "test patch1",
-    "owner_rooms": [],
-    "user_order": [],
-    "user_comments": []
-},
-{
-    "url": "http://172.18.159.245:8000/api/user/test3/",
-    "username": "test3",
-    "password": "'123456'",
-    "nickname": "test patch",
-    "owner_rooms": [],
-    "user_order": [],
-    "user_comments": []
-},
-{
-    "url": "http://172.18.159.245:8000/api/user/testpost/",
-    "username": "testpost",
-    "password": "123456",
-    "nickname": "test",
-    "owner_rooms": [],
-    "user_order": [],
-    "user_comments": []
-}
-
-```
+[  
+    {  
+        "url": "http://windymen.mynatapp.cc/user/o_yAE5qCnd1N-XccUf6Hxxxxxxxs/",  
+        "openid": "o_yAE5qCnd1N-XccUf6HFudpr-Is",  
+        "nickname": "Fengzw",  
+        "email": "13690760178@qq.com",  
+        "phone": "13690760178",  
+        "photo": "https://wx.qlogo.cn/mmopen/vi_32/oJh4gicrmVaahbDKEterBgAUW87C6rZ5VdibVicdoZFmDiaficanTic2UoHBuhhVEcj2sNjM3gXcI0K4hemSd2uLOJPw/132",  
+        "owner_rooms": [  
+            "http://windymen.mynatapp.cc/room/57/",  
+            "http://windymen.mynatapp.cc/room/58/",  
+            "http://windymen.mynatapp.cc/room/59/",  
+            "http://windymen.mynatapp.cc/room/62/",  
+            "http://windymen.mynatapp.cc/room/63/",  
+            "http://windymen.mynatapp.cc/room/64/"  
+        ],  
+        "user_order": [],  
+        "user_comments": []  
+    },  
+    {  
+        "url": "http://windymen.mynatapp.cc/user/o_yAE5ocPzTshI0xxxx/",  
+        "openid": "o_yAE5ocPzTshI0bNCi55ivfaOk4",  
+        "nickname": "咸蛋～",  
+        "email": "test",  
+        "phone": "15521094460",  
+        "photo":  "https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIFLHTQnrg2hFqoceSD85X5pgK5jm8Z1JzfzlQSZb9sPHYK1FA0lWonF5uu7jdN0eqzU466ZZUqxA/132",  
+        "owner_rooms": [],  
+        "user_order": [],  
+        "user_comments": []  
+    },  
+    {
+        "url": "http://windymen.mynatapp.cc/user/o_yAE5gKD6Ivli7xxxxxx/",  
+        "openid": "o_yAE5gKD6Ivli7DiRemq7cfQwtQ",  
+        "nickname": "木公",  
+        "email": "22112",  
+        "phone": "1221",  
+        "photo":  "https://wx.qlogo.cn/mmopen/vi_32/6iaSSKMHMVCr0XRyPftCmZA06oe0WvOWfoyQHjnopjZZsh5s3FicWau4jRr8IY7wAvkSzbh9wHWH2s2kMBq12hsw/132",  
+        "owner_rooms": [  
+            "http://windymen.mynatapp.cc/room/60/",  
+            "http://windymen.mynatapp.cc/room/61/"  
+        ],  
+        "user_order": [],  
+        "user_comments": []  
+    },  
+    {  
+        "url": "http://windymen.mynatapp.cc/user/oxxx-8z-qAWAQCOnZI/",  
+        "openid": "o_yAE5lIqhX78d-8z-qAWAQCOnZI",  
+        "nickname": "风猫",  
+        "email": "null",  
+        "phone": "null",  
+        "photo": "https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJXZz2yX937P1x4jcdRQfsQXX7ImszHQlYOmdbSsKMHH8zBFs6nVdjLInYBuCXaGmPtJ9GLN52SMA/132",  
+        "owner_rooms": [],  
+        "user_order": [],  
+        "user_comments": []  
+    }  
+]  
+  
+``` 
 
 # User-info [/api/user/$username/]
 ## 获取用户信息[GET]  
@@ -168,23 +73,17 @@ HTTP/1.1 200 OK
 HTTP/1.1 200 OK  
 
 ```
-{
-    "url": "http://172.18.159.245:8000/api/user/fengyh/",
-    "username": "fengyh",
-    "password": "888888",
-    "nickname": "xiandan",
-    "owner_rooms": [
-        "http://172.18.159.245:8000/api/room/1/",
-        "http://172.18.159.245:8000/api/room/6/",
-        "http://172.18.159.245:8000/api/room/9/"
-    ],
-    "user_order": [
-        "http://172.18.159.245:8000/api/order/1/"
-    ],
-    "user_comments": [
-        "http://172.18.159.245:8000/api/comment/1/"
-    ]
-}
+{  
+        "url": "http://windymen.mynatapp.cc/user/o_yAE5ocPzTshI0xxxx/",  
+        "openid": "o_yAE5ocPzTshI0bNCi55ivfaOk4",  
+        "nickname": "咸蛋～",  
+        "email": "test",  
+        "phone": "15521094460",  
+        "photo":  "https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIFLHTQnrg2hFqoceSD85X5pgK5jm8Z1JzfzlQSZb9sPHYK1FA0lWonF5uu7jdN0eqzU466ZZUqxA/132",  
+        "owner_rooms": [],  
+        "user_order": [],  
+        "user_comments": []  
+    }, 
 ```
 - Response 404 (application/json)   
 HTTP/1.1 404 Not Found  
@@ -201,10 +100,12 @@ HTTP/1.1 404 Not Found
 其中"password"和"nickname"均为可选  
 
 ```
-{
-    "password": "888888",
-    "nickname": "xiandan"
-}
+{   
+        "nickname": "咸蛋～",  
+        "email": "test",  
+        "phone": "15521094460",  
+        "photo":  "https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIFLHTQnrg2hFqoceSD85X5pgK5jm8Z1JzfzlQSZb9sPHYK1FA0lWonF5uu7jdN0eqzU466ZZUqxA/132"  
+    }, 
 ```
 
 - Response 200 (application/json) 
@@ -212,23 +113,17 @@ HTTP/1.1 200 OK
 返回修改后的信息
 
 ```
-{
-    "url": "http://172.18.159.245:8000/api/user/fengyh/",
-    "username": "fengyh",
-    "password": "888888",
-    "nickname": "xiandan",
-    "owner_rooms": [
-        "http://172.18.159.245:8000/api/room/1/",
-        "http://172.18.159.245:8000/api/room/6/",
-        "http://172.18.159.245:8000/api/room/9/"
-    ],
-    "user_order": [
-        "http://172.18.159.245:8000/api/order/1/"
-    ],
-    "user_comments": [
-        "http://172.18.159.245:8000/api/comment/1/"
-    ]
-}
+{  
+        "url": "http://windymen.mynatapp.cc/user/o_yAE5ocPzTshI0xxxx/",  
+        "openid": "o_yAE5ocPzTshI0bNCi55ivfaOk4",  
+        "nickname": "咸蛋～",  
+        "email": "test",  
+        "phone": "15521094460",  
+        "photo":  "https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIFLHTQnrg2hFqoceSD85X5pgK5jm8Z1JzfzlQSZb9sPHYK1FA0lWonF5uu7jdN0eqzU466ZZUqxA/132",  
+        "owner_rooms": [],  
+        "user_order": [],  
+        "user_comments": []  
+    }, 
 ```
 
 
