@@ -21,12 +21,12 @@ layout: default
     - 6.7 [SD]() (软件设计文档)
     - 6.8 [补充性规格说明](doc/SSD)
 * 7、Design（设计）
-    - 7.1 UI design
-        -XX 用例 UI设计
-    - 7.2 Database design
-        -7.2.1 [用户及权限系统数据库设计](doc/course-SDP/datebaseModel)
-        -7.2.2 [订单子系统数据库设计文件](doc/database/rentRoom)
-        -7.2.x 第三方数据评审结果
+    - 7.1 UI design    
+      -XX 用例 UI设计    
+    - 7.2 Database design    
+      -7.2.1 [用户及权限系统数据库设计](doc/course-SDP/datebaseModel)    
+      -7.2.2 [订单子系统数据库设计文件](doc/database/rentRoom)    
+      -7.2.x 第三方数据评审结果
     - 7.3 API 设计  
         - 7.3.1 [readme](doc/API%20Design)
         - 7.3.2 [api_root](doc/API%20Design/apiRoot)  
