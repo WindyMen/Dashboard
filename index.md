@@ -29,13 +29,13 @@ layout: default
         -7.2.x 第三方数据评审结果
     - 7.3 API 设计  
         - 7.3.1 [readme](doc/API%20Design/Readme) 
-        - 7.3.1 [api_root](doc/API%20Design/apiRoot)  
+        - 7.3.2 [api_root](doc/API%20Design/apiRoot)  
         - 7.3.3 [user_api](doc/API%20Design/user_api)  
         - 7.3.4 [room_api](doc/API%20Design/room_api)  
-        - 7.3.6 [comment_api](doc/API%20Design/comment_api)  
-        - 7.3.7 [photo_api](doc/API%20Design/photo_api)  
-        - 7.3.8 [city_api](doc/API%20Design/Country_Province_City_Town_api)  
-        - 7.3.9 [search_room_api](doc/API%20Design/SearchRoom_api)
+        - 7.3.5 [comment_api](doc/API%20Design/comment_api)  
+        - 7.3.6 [photo_api](doc/API%20Design/photo_api)  
+        - 7.3.7 [city_api](doc/API%20Design/Country_Province_City_Town_api)  
+        - 7.3.8 [search_room_api](doc/API%20Design/SearchRoom_api)
 * 8、生产规范与指南
     - 8.1 XX 代码规范
     - 8.2 REST API 设计规范
