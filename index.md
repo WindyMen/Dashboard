@@ -28,7 +28,7 @@ layout: default
         -7.2.2 [订单子系统数据库设计文件](doc/database/rentRoom)
         -7.2.x 第三方数据评审结果
     - 7.3 API 设计  
-        - 7.3.1 [readme](doc/API%20Design/Readme) 
+        - 7.3.1 [readme](doc/API%20Design/Readme.md) 
         - 7.3.2 [api_root](doc/API%20Design/apiRoot)  
         - 7.3.3 [user_api](doc/API%20Design/user_api)  
         - 7.3.4 [room_api](doc/API%20Design/room_api)  
