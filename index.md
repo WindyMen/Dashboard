@@ -17,8 +17,8 @@ layout: default
     - 6.3 [Domian Model](doc/course-SDP/rentRoomDomain) （领域模型）
     - 6.4 [State Model](doc/course-SDP/rentOrderState) （状态模型）
     - 6.5 [System Sequence Diagram](doc/course-SDP/createRoomSequence)（功能模型）
-    - 6.6 [SAD]() (软件架构文档)
-    - 6.7 [SD]() (软件设计文档)
+    - 6.6 [SAD](doc/SAD) (软件架构文档)
+    - 6.7 [SD](doc/SD) (软件设计文档)
     - 6.8 [补充性规格说明](doc/SSD)
 * 7、Design（设计）
     - 7.1 UI design    
