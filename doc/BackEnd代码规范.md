@@ -27,6 +27,7 @@
 ## 空行
 - 模块级函数和类定义之间空两行
 - 类成员函数之间空一行
+
 ```
 class model(models.Model):
 
@@ -37,18 +38,21 @@ class model(models.Model):
 	def __str__(self):
 		pass
 ```
+
 - 可以使用多个空行分隔多组相关的函数
 - 函数中可以使用空行分隔出逻辑相关的代码
 
 ## 编码
 - 文件使用UTF-8编码，在保存文件时确保一次使用的编码方式，否则在不同机器下会有乱码
 - 文件头部加入以下的标识(python3以上版本不需要)
+
 ```
 #-- coding:utf-8 --
 ```
 
 ## import 语句
 - import语句应该分行书写
+
 ```
 正确的写法
 import sys
@@ -60,7 +64,9 @@ import sys, os
 正确的写法
 from django.http import HttpResponse, JsonResponse
 ```
+
 - import语句应该使用absolute import
+
 ```
 正确的写法
 from rest_framework import status
@@ -68,8 +74,10 @@ from rest_framework import status
 错误的写法
 from ..model import views
 ```
+
 - import语句应该放在文件头部，置于模块说明及docstring之后，于全局变量之前
 - import语句应该按照顺序排列，每组之间用一个空行分隔
+
 ```
 #自身模块的导入
 from mymodel import views
@@ -82,25 +90,29 @@ from django.http import HttpResponse, JsonResponse, Http404
 ```
 
 - 导入其他模块的类定义时，可以使用相对导入
+
 ```
 from mymodel import models
 ```
+
 - 如果发生命名冲突，则可使用命名空间
+
 ```
 import models
 import mymodel.models
 
 models.a()
 mymodel.models.a()
+
 ```
 ## 空格
 - 在二元运算符两边各空一格[=, -, +=, ==, >.......]
+
 ```
 i = i + 1
 x = x * 2 - 1
 if a > 2
 ...
-```
 
 - 函数的参数列表中，逗号,之后要有空格
 ```
