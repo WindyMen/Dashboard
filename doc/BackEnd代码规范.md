@@ -85,7 +85,6 @@ import settings
 
 #http模块的导入
 from django.http import HttpResponse, JsonResponse, Http404
-
 #...
 ```
 
@@ -103,8 +102,8 @@ import mymodel.models
 
 models.a()
 mymodel.models.a()
-
 ```
+
 ## 空格
 - 在二元运算符两边各空一格[=, -, +=, ==, >.......]
 
@@ -112,7 +111,7 @@ mymodel.models.a()
 i = i + 1
 x = x * 2 - 1
 if a > 2
-...
+```
 
 - 函数的参数列表中，逗号,之后要有空格
 ```
