@@ -196,7 +196,8 @@ OAuth2.0提供了一个非常好的方法去做这件事。在每一个请求里
 
 ## 例子
 
-- Example HTTP Request
+- Example HTTP Request  
+
 ```
 POST /v1/animal HTTP/1.1
 Host: api.example.org
@@ -210,7 +211,8 @@ Content-Length: 24
 }
 ```
 
-- Example HTTP Response
+- Example HTTP Response  
+
 ```
 HTTP/1.1 200 OK
 Date: Wed, 18 Dec 2013 06:08:22 GMT
