@@ -119,7 +119,7 @@ def function(parm1, parm2, parm3):
 	pass
 ```
 
-- 函数的参数列表中，默认值等号两边不要添加空格
+- 函数的参数列表中，默认值等号两边不要添加空格  
 
 ```
 def function(parm1=1, parm2=2, parm3=3):
@@ -206,9 +206,7 @@ if None: do_sth()
 
 ```
 # 块注释
-# 块注释
 #
-# 块注释
 # 块注释
 ```
 
