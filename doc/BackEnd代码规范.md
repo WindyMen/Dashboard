@@ -130,7 +130,7 @@ def function(parm1 = 1, parm2 = 2, parm3 = 3):
 	pass
 ```
 
-- 左括号之后，右括号之间不要加多余的空格
+- 左括号之后，右括号之间不要加多余的空格  
 
 ```
 serializer = Serializer(model, context={'request': request})
@@ -139,7 +139,8 @@ serializer = Serializer(model, context={'request': request})
 serializer = Serializer(model, context={'request': request} )
 ```
 
-- 字典对象的左括号之前不要有多余的空格
+- 字典对象的左括号之前不要有多余的空格  
+
 ```
 推荐写法：
 dict['key'] = 'key'
