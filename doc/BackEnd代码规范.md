@@ -1,9 +1,3 @@
-
-不知道为什么在目录里面跳转的md解析出的排版有问题  
-如果要看正常排版的请浏览以下github链接：  
-[github链接](https://github.com/WindyMen/Dashboard/blob/gh-pages/doc/BackEnd%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83.md)  
-谢谢!  
-
 # django编码规范  
   
 ## 缩进
