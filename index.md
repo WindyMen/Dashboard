@@ -43,4 +43,4 @@ layout: default
     - [inception meeting](doc/meet_recording/项目启动会议) (2018/03/24)
 * X2 Tech/Work Report
     - [15331071-项目工作经验总结](doc/tech_report/15331071)
-    - [15331080-项目工作经验总结](doc/tech_report/15331080_techReport)
+    - [15331080-项目工作经验总结](doc/tech_report/15331080_techReport.pdf)
