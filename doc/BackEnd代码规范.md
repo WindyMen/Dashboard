@@ -120,6 +120,7 @@ def function(parm1, parm2, parm3):
 ```
 
 - 函数的参数列表中，默认值等号两边不要添加空格
+
 ```
 def function(parm1=1, parm2=2, parm3=3):
 	pass
@@ -130,6 +131,7 @@ def function(parm1 = 1, parm2 = 2, parm3 = 3):
 ```
 
 - 左括号之后，右括号之间不要加多余的空格
+
 ```
 serializer = Serializer(model, context={'request': request})
 
@@ -147,6 +149,7 @@ dict ['key'] = 'key'
 ```
 
 - 不要为对齐赋值语句而使用额外的空格（应该不会有人这样）
+
 ```
 不推荐写法：
 x    = 1
@@ -157,12 +160,14 @@ test =3
 ## 换行
 python支持括号内的换行。有两种情况
 1. 第二行缩进到括号的起始处
+
 ```
 foo = function_name(parm1, parm2, 
 		  parm3, parm4)
 ```
 
 2. 第二行缩进2个tabs，适用于起始括号就换行的情形
+
 ```
 def function_name(
 		parm1, parm2, parm3
@@ -171,12 +176,14 @@ def function_name(
 ```
 
 - 使用反斜杠\换行，二元运算符 + . 等应出现在行末；长字符串也可以用此法换行
+
 ```
 print ('Hello, '\
 	'my baby.')
 ```
 
 - 禁止复合语句，即一行中包含多个语句：
+
 ```
 禁止的用法：
 func1();func2();
@@ -184,6 +191,7 @@ func1();func2();
 ```
 
 - if/for/while一定要换行：
+
 ```
 if None:
 	do_sth()
@@ -195,6 +203,7 @@ if None: do_sth()
 ## 注释
 ### 块注释
 - “#”号后空一格，段落件用空行分开（同样需要“#”号）
+
 ```
 # 块注释
 # 块注释
@@ -205,6 +214,7 @@ if None: do_sth()
 
 ### 行注释
 - 至少使用两个空格和语句分开，注意不要使用无意义的注释
+
 ```
 # 正确的写法
 x = x + 1  # 边框加粗一个像素
@@ -217,6 +227,7 @@ x = x + 1# x加1
 - docstring的规范在 PEP 257 中有详细描述，其中最其本的两点：
 	1. 所有的公共模块、函数、类、方法，都应该写docstring。私有方法不一定需要，但应该在def后提供一个块注释来说明。
 	2. docstring的结束"""应该独占一行，除非此docstring只有一行。
+
 ```
 """content
 it is a content.
