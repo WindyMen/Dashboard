@@ -44,3 +44,4 @@ layout: default
 * X2 Tech/Work Report
     - [15331071-项目工作经验总结](doc/tech_report/15331071)
     - [15331080-项目工作经验总结](doc/tech_report/15331080_techReport.pdf)
+    - [15331088-项目工作经验总结](doc/tech_report/15331080_techReport)
