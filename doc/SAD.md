@@ -6,7 +6,9 @@
 
 #### 架构设计    
 前端架构基于微信小程序，后端采用基于diango的REST的diango-rest-framework框架，数据库是使用mysql存取数据。    
+
 架构图：
+![架构图](架构图.png)
 
 #### 解决方案    
 
