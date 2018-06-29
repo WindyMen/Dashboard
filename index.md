@@ -6,7 +6,7 @@ layout: default
 
 &nbsp;&nbsp; 
 
-* 1、[About](Dashboard/01-about)（项目组建）
+* 1、[About](01-about)（项目组建）
 * 2、[Team profile](02-team-profile)（团队组建）
 * 3、Investigation（项目前期调研）
 * 4、Vision（项目愿景）
