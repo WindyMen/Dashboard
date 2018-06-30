@@ -15,6 +15,8 @@
 
 
 ### <h3 id="1">一、项目环境</h3>    
+  - 数据库：MySql 5.0
+  - 客户端：手机微信
 ### <h3 id="2">二、项目构建和管理工具</h3>    
 基于Diango的REST的diango-rest-framework进行开发。    
 采用Github管理平台托管代码。
