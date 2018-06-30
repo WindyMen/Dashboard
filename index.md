@@ -39,7 +39,8 @@ layout: default
 * 8、生产规范与指南
     - 8.1 [BackEnd代码规范](doc/BackEnd代码规范)
     - 8.2 [REST API 设计规范](doc/REST_API设计规范)
-
+    - 8.3 [逻辑架构到应用程序映射指南](doc/useCaseDesign/map)
+    - 8.4 [物理架构云上部署 dock-compose.yml 文件](doc/useCaseDesign/readme)
 * X1 meet_recording
     - [inception meeting](doc/meet_recording/项目启动会议) (2018/03/24)
 
@@ -49,3 +50,4 @@ layout: default
     - [15331088-项目工作经验总结](doc/tech_report/15331088_techReport)
 
 * X3 Final Report
+    - [15331088-个人总结]()
