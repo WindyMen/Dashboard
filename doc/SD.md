@@ -29,7 +29,7 @@
     - 1.概念设计    
     ![](course-SDP/conceptModel.PNG)
     - 2.数据库表结构设计   
-    ![](course-SDP/databaseModel.PNG) 
+    ![](course-SDP/datebaseModel.PNG) 
 ### <h3 id="7">七、路由设计</h3>    
 ### <h3 id="8">八、功能模型及用例设计</h3>    
 创建房间设计：    
