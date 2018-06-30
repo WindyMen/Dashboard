@@ -36,7 +36,7 @@
 ### <h3 id="7">七、路由设计</h3>    
 ### <h3 id="8">八、功能模型及用例设计</h3>    
 创建房间设计：    
-![创建房间设计](course-SDP/createRoomSequence.png)    
+![创建房间设计](course-SDP/createRoomSequence.PNG)    
 完成房间订单：    
 ![完成房间订单](course-SDP/功能模型2.png)
 ### <h3 id="9">九、逻辑视图</h3>    
