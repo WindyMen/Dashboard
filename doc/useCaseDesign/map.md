@@ -46,8 +46,6 @@ git clone git@github.com:WindyMen/BackEnd.git
 
 #### 2.2 测试服务器运行状况
 
-```bash
 
-```
 
 有获得以上响应则说明部署成功。
