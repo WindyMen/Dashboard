@@ -20,8 +20,7 @@ layout: default
     - 6.7 [SD](https://github.com/WindyMen/Dashboard/blob/gh-pages/doc/SD.md) (软件设计文档)
     - 6.8 [补充性规格说明](doc/SSD)
 * 7、Design（设计）
-    - 7.1 UI design    
-      -XX 用例 UI设计    
+    - 7.1 UI design        
     - 7.2 Database design    
       - 7.2.1 [用户及权限系统数据库设计](doc/course-SDP/datebaseModel)    
       - 7.2.2 [订单子系统数据库设计文件](doc/database/rentRoom)    
