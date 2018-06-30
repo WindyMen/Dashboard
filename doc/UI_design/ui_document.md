@@ -15,5 +15,3 @@
 <img src="发布房源.png" width="30%" height="30%"/>    
 8. 个人主页    
 <img src="个人主页.png" width="30%" height="30%"/>    
-
-### 交互逻辑
