@@ -59,6 +59,6 @@ layout: default
     - [15331059-finalReport](doc/finalReport/15331059_finalReport.pdf)    
 
 * X4    
-[Airbnb业务文档]()
+[Airbnb业务文档](doc/course-SDP/Asg_STR.pdf)
   
 
