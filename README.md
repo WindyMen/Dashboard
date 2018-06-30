@@ -6,7 +6,7 @@ layout: default
 
 &nbsp;&nbsp; 
 
-![项目网站](https://windymen.github.io/Dashboard/)
+项目网站：https://windymen.github.io/Dashboard/
 
 
 * 1、[About](01-about)（项目规划）
