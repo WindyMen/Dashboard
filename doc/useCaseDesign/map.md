@@ -44,10 +44,9 @@
 git clone git@github.com:WindyMen/BackEnd.git
 ```
 
-#### 2.2 测试服务器运行状况
+#### 2.2 启动服务器
 
 ```bash
-
+python manage.py runserver 0.0.0.0:8000
 ```
 
-有获得以上响应则说明部署成功。
