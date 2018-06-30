@@ -29,7 +29,7 @@
 |● Postmortem & Process Improvement Plan|   事后总结，并提出过程改进计划| 3|   
 
 ### GIT统计报告    
-
+![GIT](git.png)
 
 ### 工作清单    
   - 产品特性文档    
@@ -41,4 +41,6 @@
   - 软件架构文档    
   - 会议记录    
 
+### 个人博客    
+[个人博客](https://blog.csdn.net/qq_40134052)
 
