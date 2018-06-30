@@ -50,10 +50,6 @@ layout: default
     - [15331080-项目工作经验总结](doc/tech_report/15331080_techReport.pdf)
     - [15331088-项目工作经验总结](doc/tech_report/15331088_techReport)
 
-<<<<<<< HEAD
 * X3 Final Report
-    - [15331088-个人总结]()
-=======
-* X3 Final Report    
     - [15331071]()
->>>>>>> 73170843e2f3fcf15e65e1ca945d2182b1d5df88
+    - [15331088-个人总结]()
