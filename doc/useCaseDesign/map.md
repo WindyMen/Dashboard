@@ -7,7 +7,7 @@
 
 ## 一、部署架构图
 
-![](架构图.PNG)
+![](架构图.png)
 
 ---
 
@@ -46,7 +46,11 @@ git clone git@github.com:WindyMen/BackEnd.git
 
 #### 2.2 启动服务器
 
+<<<<<<< HEAD
 ```bash
 python manage.py runserver 0.0.0.0:8000
 ```
+=======
+
+>>>>>>> e92d471bd36a5c46304675cae03a05e8721bbf3f
 
