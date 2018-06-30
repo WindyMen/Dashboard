@@ -53,6 +53,7 @@ layout: default
 
 * X3 Final Report
     - [15331071-finalReport](https://github.com/WindyMen/Dashboard/blob/gh-pages/doc/finalReport/15331071_finalReport.md)
+    - [15331072-finalReport](doc/finalReport/15331072_finalReport)
     - [15331080-finalReport](doc/finalReport/15331080_finalReport)
     - [15331088-finalReport](doc/personalReport/15331088个人总结)
     - [15331081-finalReport](doc/finalReport/15331081_finalReport.pdf)
