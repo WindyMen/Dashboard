@@ -9,7 +9,7 @@ layout: default
 * 1、[About](01-about)（项目组建）
 * 2、[Team profile](02-team-profile)（团队组建）
 * 3、[Investigation](doc/03-Investigation)（项目前期调研）
-* 4、[Vision]()（项目愿景）
+* 4、[Vision](doc/04-Vision)（项目愿景）
 * 5、[Product Backlog](doc/backlog)（产品特性）
 * 6、Requirement specification（需求规格说明）
     - 6.1 [Usecase Diagram](doc/usecase_diagram)（用例图）
@@ -20,7 +20,7 @@ layout: default
     - 6.7 [SD](https://github.com/WindyMen/Dashboard/blob/gh-pages/doc/SD.md) (软件设计文档)
     - 6.8 [补充性规格说明](doc/SSD)
 * 7、Design（设计）
-    - 7.1 UI design        
+    - 7.1 [UI design](doc/UI_design/ui_document)        
     - 7.2 Database design    
       - 7.2.1 [用户及权限系统数据库设计](doc/course-SDP/datebaseModel)    
       - 7.2.2 [订单子系统数据库设计文件](doc/database/rentRoom)    
@@ -46,8 +46,14 @@ layout: default
 
 * X2 Tech/Work Report
     - [15331071-项目工作经验总结](doc/tech_report/15331071)
+    - [15331072-项目工作经验总结](doc/tech_report/15331072_techReport)
     - [15331080-项目工作经验总结](doc/tech_report/15331080_techReport.pdf)
     - [15331088-项目工作经验总结](doc/tech_report/15331088_techReport)
 
+<<<<<<< HEAD
 * X3 Final Report
     - [15331088-个人总结]()
+=======
+* X3 Final Report    
+    - [15331071]()
+>>>>>>> 73170843e2f3fcf15e65e1ca945d2182b1d5df88
