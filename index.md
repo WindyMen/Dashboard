@@ -49,9 +49,11 @@ layout: default
     - [15331072-项目工作经验总结](doc/tech_report/15331072_techReport)
     - [15331080-项目工作经验总结](doc/tech_report/15331080_techReport.pdf)
     - [15331088-项目工作经验总结](doc/tech_report/15331088_techReport)
+    - [15331059-项目工作经验总结](doc/tech_report/15331059_techReport)
 
 * X3 Final Report
     - [15331071]()
     - [15331080-finalReport](doc/finalReport/15331080_finalReport)
     - [15331088-finalReport](doc/personalReport/15331088个人总结)
     - [15331081-finalReport](doc/finalReport/15331081_finalReport.pdf)
+    - [15331059-finalReport](doc/finalReport/15331059_finalReport.pdf)
