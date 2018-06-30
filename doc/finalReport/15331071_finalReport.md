@@ -10,6 +10,23 @@
 总的来说，在这门课上收获很大，感谢老师的指导，感谢大神们分享的精彩博客!    
 
 ### PSP2.1统计表    
+| PSP2.1          | Personal Software Process Stages | Time(%) |
+|-----------------|----------------------------------|---------|
+|**Planning**         | **计划**                              |    **8**    |
+|● Estimate         |   估计这个任务需要多长时间             |  8      |
+|**Develoment**       | **开发**                              |   **84**    |
+|● Analysis         |   需求分析（包括学习新技术）            |  10      |
+|● Design Spec      |   生成设计文档                        | 15      |
+|● Design Review    |   设计复审（和同事审核设计文档）         |   4    |
+|● Coding Standard  |   代码规范（为目前的开发制定规范）       |    4    |
+|● Design           |   具体设计                           |    8    |
+|● Coding           |   具体编码                           |    15   |
+|● Coding Review    |   代码复审                           |    8    |
+|● Test             |   测试（自我测试，修改代码，提交修改）    | 20      |
+|**Reporting**        | **报告**                               |  **8**    |
+|● Test Report      |   测试报告                           |    3    |
+|● Size Measurement |   计算工作量                         | 2       |
+|● Postmortem & Process Improvement Plan|   事后总结，并提出过程改进计划| 3|   
 
 ### GIT统计报告    
 
