@@ -25,7 +25,7 @@
   |● Size Measurement |   计算工作量                         | 1       |    
   |● Postmortem & Process Improvement Plan|   事后总结，并提出过程改进计划| 3|  
 - 个人分支的GIT统计报告  
-  ![个人分支git统计](doc/finalReport/15331080.jpg)  
+  ![个人分支git统计](/15331080.jpg)  
   
 - 自认为最得意/或有价值/或有苦劳的工作清单，含简短说明。
 
