@@ -31,7 +31,7 @@
 
 
 ### GIT统计报告    
-![GIT](.png)
+![GIT](dashboard.png)
 
 ### 工作清单    
   - 产品特性文档    
