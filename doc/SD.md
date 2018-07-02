@@ -21,7 +21,9 @@
 基于Diango的REST的diango-rest-framework进行开发。    
 采用Github管理平台托管代码。
 ### <h3 id="3">三、技术选型</h3>    
-基于Javascript+Diango+MySql的微信小程序。
+基于Javascript+Diango+MySql的微信小程序。    
+1. 微信小程序开发    
+支持组件化开发和数据绑定，与React类似，开发维护难度较低。
 ### <h3 id="4">四、架构设计</h3>    
 ![架构图](架构图.png)
 ### <h3 id="5">五、模块划分与设计</h3>    
