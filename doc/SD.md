@@ -18,7 +18,7 @@
   - 数据库：MySql 5.0
   - 客户端：手机微信
 ### <h3 id="2">二、项目构建和管理工具</h3>    
-基于Diango的REST的diango-rest-framework进行开发。    
+基于Diango的REST的diango-rest-framework进行微信小程序开发。    
 采用Github管理平台托管代码。
 ### <h3 id="3">三、技术选型</h3>    
 基于Diango+MySql的微信小程序开发。    
