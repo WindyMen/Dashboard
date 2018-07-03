@@ -21,7 +21,7 @@
 基于Diango的REST的diango-rest-framework进行开发。    
 采用Github管理平台托管代码。
 ### <h3 id="3">三、技术选型</h3>    
-基于Javascript+Diango+MySql的微信小程序。    
+基于Diango+MySql的微信小程序开发。    
 1. 微信小程序开发    
 支持组件化开发和数据绑定，技术架构上清晰易懂。JS负责业务逻辑的实现，表现层由WXML和WXSS共同实现。对于开发者来说，降低了不少门槛。    
 ![架构图](wechat_arc.png)    
